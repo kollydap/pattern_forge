@@ -1,0 +1,46 @@
+
+---
+
+### ✅ `.gitignore`
+
+```gitignore
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.env.bak
+.venv/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# IDEs
+.idea/
+*.swp
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Compiled files
+*.so
