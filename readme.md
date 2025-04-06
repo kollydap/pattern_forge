@@ -18,6 +18,8 @@ patter-forge/
 │   ├── discount_strategy_impl.py
 │   └── test_discount_strategies.py
 
+```
 
 ```bash
 python3 -m strategy.test_discount_strategies
+```
