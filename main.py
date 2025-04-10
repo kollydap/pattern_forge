@@ -1,7 +1,7 @@
 from strategy.cart import Cart
 from strategy.discount_strategy_impl import PercentageDiscount, FixedDiscount, BOGODiscount
-from decorators.prices import BasePrice
-from decorators.price_calculator_decorator_impl import SeasonalDiscount, PromoCodeDiscount, LoyaltyDiscount, BulkDiscount,TaxCalculator
+from decorators.price_calculator.prices import BasePrice
+from decorators.price_calculator.price_calculator_decorator_impl import SeasonalDiscount, PromoCodeDiscount, LoyaltyDiscount, BulkDiscount,TaxCalculator
 
 # Example usage
 def strategy():

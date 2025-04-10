@@ -1,12 +1,12 @@
 import unittest
-from price_calculator_decorator_impl import (
+from price_calculator.price_calculator_decorator_impl import (
     SeasonalDiscount,
     PromoCodeDiscount,
     LoyaltyDiscount,
     BulkDiscount,
     TaxCalculator,
 )
-from prices import BasePrice
+from price_calculator.prices import BasePrice
 
 
 class TestPriceCalculator(unittest.TestCase):
